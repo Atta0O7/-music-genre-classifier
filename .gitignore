@@ -1,0 +1,24 @@
+venv/
+venv_tf/
+__pycache__/
+.idea/
+.vscode/
+
+# Audio files (heavy)
+*.wav
+*.mp3
+*.ogg
+*.au
+
+# Raw dataset folder (GTZAN)
+genres_original/
+
+# Big model / data files
+*.npz
+*.joblib
+*.pkl
+*.h5
+*.keras
+
+# Misc
+.DS_Store

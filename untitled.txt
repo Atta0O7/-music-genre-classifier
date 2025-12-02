@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datasets and audio folders
+archive/
+archive (1)/
+genres_original/
+database/
+models/
+
+# Audio uploads, temp files
+*.wav
+*.mp3
+
+# Model and large binaries you don’t want on GitHub
+*.h5
+*.joblib
+*.csv
+*.zip
